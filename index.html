@@ -1,10 +1,69 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-  </head>
-  <body></body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./fonts/fonts.css" />
+		<link rel="stylesheet" href="./styles/global.css" />
+		<link rel="stylesheet" href="./styles/style.css" />
+		<title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
+	</head>
+	<body>
+		<header class="header content">
+			<nav class="header__menu">
+				<ul class="header__links-list">
+					<li class="header__links-list-item header__links-list-item_no-bullit">
+						<a class="header__link header__link_active" href="#0">главная</a>
+					</li>
+					<li class="header__links-list-item">
+						<a class="header__link" href="#0">посмотреть лоты</a>
+					</li>
+					<li class="header__links-list-item">
+						<a class="header__link" href="#0">об аукционе</a>
+					</li>
+				</ul>
+			</nav>
+			<a class="header__logo" href="index.html">
+				<img
+					class="header__logo-image"
+					src="images/logo-black.svg"
+					alt="Лого проекта"
+				/>
+			</a>
+			<address class="header__address">
+				<a class="context__address" href="tel:+99995555555">+9 999 555 5555</a>
+				<a class="context__address" href="mailto:info@sobaka.ge"
+					>info@sobaka.ge</a
+				>
+				<p class="street__address">наб. Принсенграхт 263-265,<br />Амстердам</p>
+			</address>
+		</header>
+
+		<main>
+			<section class="cover content">
+				<div class="overlay"></div>
+				<h1 class="cover__title">
+					<span class="aligned-text"
+						>о<span class="letter-spacing-extended">но</span></span
+					>
+					<span class="aligned-text aligned-text_center"
+						>те<span class="letter-spacing-extended">бе</span></span
+					>
+					<span class="aligned-text aligned-text_right"
+						><span class="letter-spacing-extended">н</span>ад<span
+							class="letter-spacing-clear"
+							>о</span
+						></span
+					>
+				</h1>
+				<div class="cover__description">
+					<p class="cover__description-text">
+						Аукцион вещей, в которые никто не верил
+					</p>
+					<button class="bet-button">Сделать ставку</button>
+				</div>
+			</section>
+		</main>
+	</body>
 </html>
